@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="221" Width="530">
+    <Grid Height="177" Width="479">
+        <RadioButton Content="España" Height="16" HorizontalAlignment="Left" Margin="27,29,0,0" Name="radioButton1" VerticalAlignment="Top" Checked="escuchador"/>
+        <RadioButton Content="Brasil" Height="16" HorizontalAlignment="Left" Margin="27,51,0,0" Name="radioButton2" VerticalAlignment="Top" Checked="escuchador"/>
+        <RadioButton Content="Francia" Height="16" HorizontalAlignment="Left" Margin="27,73,0,0" Name="radioButton3" VerticalAlignment="Top" Checked="escuchador"/>
+        <RadioButton Content="Italia" Height="16" HorizontalAlignment="Left" Margin="27,95,0,0" Name="radioButton4" VerticalAlignment="Top" Checked="escuchador"/>
+        <RadioButton Content="Japón" Height="16" HorizontalAlignment="Left" Margin="27,117,0,0" Name="radioButton5" VerticalAlignment="Top" Checked="escuchador"/>
+        <Image Height="150" HorizontalAlignment="Left" Margin="98,12,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="341" />
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Ej2Avanzados.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ventana Principal" Height="146.808" Width="401.064">
+    <StackPanel>
+        <Grid>
+            <Button Content="Nuevo Usuario" Name="botonNuevo" Margin="50,20,0,0" Click="Button_Click" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="96"/>
+            <Button IsEnabled="False" Click="botonEditar_Click" Margin="0,20,50,0" Name="botonEditar" Content="Editar usuario" HorizontalAlignment="Right" VerticalAlignment="Top" Width="93"/>
+        </Grid>
+        <Grid Margin="0,30,10,0">
+            <Label Background="Beige" Name="label1" Content="" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="372"/>
+        </Grid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="116" Width="210">
+    <StackPanel>
+        <CheckBox Content="Marcar Todos" Name="checkBox1" Margin="0,0,0,10" Unchecked="cbTodos_CheckedChanged" Checked="cbTodos_CheckedChanged"/>
+
+        <StackPanel>
+            <CheckBox Content="Anchoas" Name="checkBox2" Margin="20,0,0,0" Unchecked="cbIngrediente_CheckedChanged" Checked="cbIngrediente_CheckedChanged"/>
+            <CheckBox Content="Bacon" Name="checkBox3" Margin="20,0,0,0" Unchecked="cbIngrediente_CheckedChanged" Checked="cbIngrediente_CheckedChanged"/>
+            <CheckBox Content="Aceitunas" Name="checkBox4" Margin="20,0,0,0" Unchecked="cbIngrediente_CheckedChanged" Checked="cbIngrediente_CheckedChanged"/>
+        </StackPanel>
+
+    </StackPanel>
+
+
+
+
+    
+</Window>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="instituto2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2a525ba1-f968-44ed-86c2-80d876020b93">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     grupo.`nombre` AS grupo_nombre,
+     modulo.`nombre` AS modulo_nombre,
+     profesor.`nombre` AS profesor_nombre,
+     profesor.`apellidos` AS profesor_apellidos
+FROM
+     `grupo` grupo INNER JOIN `modulo` modulo ON grupo.`p_grupo` = modulo.`a_grupo`
+     INNER JOIN `profesor` profesor ON modulo.`a_profesor` = profesor.`p_profesor`]]>
+	</queryString>
+	<field name="grupo_nombre" class="java.lang.String"/>
+	<field name="modulo_nombre" class="java.lang.String"/>
+	<field name="profesor_nombre" class="java.lang.String"/>
+	<field name="profesor_apellidos" class="java.lang.String"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699" uuid="d7122b3a-6d7f-41a8-804d-62e4ca3f6da9"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="67e1aa40-21fc-4a02-9d87-2c16dff15523"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Módulos]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="395" y="43" width="180" height="20" forecolor="#FFFFFF" uuid="00de5e3f-a056-423f-b1cf-7ec39b85b6f1"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Informática]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="22">
+			<line>
+				<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="673d30bb-8eff-4439-93f3-bfa07e324cf3"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="435" y="0" width="120" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="febe1ce8-7dd1-4302-ae05-ea0ee0ca89e3"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Grupo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="200" y="0" width="140" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="08a61813-292e-498f-91b6-ace0dfaed2d0"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Profesor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="-1" y="0" width="135" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="caab571b-a40d-4029-93bf-214a3c892e1d"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Modulo]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="26">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="20" width="555" height="1" uuid="624277f1-566a-453a-a1c1-07c69024d4a4"/>
+			</line>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="1" width="135" height="20" uuid="928c216e-a652-4000-8481-00c5b8aef6d0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{modulo_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="435" y="1" width="120" height="20" uuid="ea493d04-eb27-492d-9c52-658639963a71"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grupo_nombre}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="200" y="0" width="86" height="20" uuid="31e581be-ec51-432f-9de8-56610943d4d0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{profesor_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="322" y="0" width="101" height="20" uuid="decc8dc3-2ed3-4dba-b9a8-7101810baac7"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{profesor_apellidos}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="cb0260df-1009-4e8d-8fbf-ec46ec056f40"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="bb09e4be-02d7-4e60-925a-e86446b0d799"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="3d0af99e-4b6a-4585-b1af-877d35f61aeb"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

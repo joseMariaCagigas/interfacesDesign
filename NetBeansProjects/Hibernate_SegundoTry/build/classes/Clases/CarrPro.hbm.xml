@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-feb-2016 9:20:28 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Clases.CarrPro" table="carr_pro" catalog="supermercado_r" optimistic-lock="version">
+        <id name="PCarrPro" type="int">
+            <column name="P_CARR_PRO" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="carritos" class="Clases.Carritos" fetch="select">
+            <column name="A_CARRITO" />
+        </many-to-one>
+        <many-to-one name="productos" class="Clases.Productos" fetch="select">
+            <column name="A_PRODUCTO" />
+        </many-to-one>
+        <property name="cantidad" type="java.lang.Integer">
+            <column name="CANTIDAD" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,48 @@
+﻿<Window x:Class="Ej2Avanzados.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Ej2Avanzados"
+        Title="Ventana Datos" Height="168" Width="411">
+    <Window.Resources>
+        <local:ConvertidorMasculino x:Key="convertidorMasculino" />
+        <local:ConvertidorFemenino x:Key="convertidorFemenino" />
+        <local:ConvertidorCombo x:Key="converterCombo" />
+    </Window.Resources>
+
+    <StackPanel>
+        <Grid>
+            <Label Content="Nombre Usuario: " Name="label1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox Name="textBox1" Width="162" HorizontalAlignment="Right" Height="23" TextWrapping="Wrap" Text="{Binding nombre}"/>
+        </Grid>
+
+        <Grid>
+            <Label Content="Contraseña: " Name="label2" RenderTransformOrigin="0.434,-1.112"/>
+            <TextBox HorizontalAlignment="Right" Name="textBox2" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding contrasena}"/>
+        </Grid>
+
+        <Grid>
+            <Label Content="Sexo" HorizontalAlignment="Left" Name="label3" VerticalAlignment="Top"/>
+            <RadioButton Content="Masculino" Name="radioButton1"  HorizontalAlignment="Right" Margin="0,0,90,0"  IsChecked="{Binding sexo,Converter={StaticResource convertidorMasculino}}"/>
+            <RadioButton Content="Femenino" Name="radioButton2" HorizontalAlignment="Right" Margin="0,0,0,0" IsChecked="{Binding sexo,Converter={StaticResource convertidorFemenino}}"/>
+        </Grid>
+        <Grid>
+            <Label Content="Pais: " Name="label4" VerticalAlignment="Top"/>
+            <ComboBox Name="comboBox1"  Height="23" HorizontalAlignment="Right" VerticalAlignment="Top" Width="162" SelectedIndex="{Binding country,Converter={StaticResource converterCombo}}"/>
+        </Grid>
+        <Grid>
+            <Button Content="Ok" Name="button1" Click="Button_Click" HorizontalAlignment="Center" Margin="90,0,0,0" Width="70"/>
+            <Button Content="Cancelar" Name="button2" IsCancel="True" HorizontalAlignment="Center" Margin="0,0,90,0" Width="70" />
+        </Grid>
+    </StackPanel>
+
+
+
+
+
+
+
+
+
+
+
+</Window>

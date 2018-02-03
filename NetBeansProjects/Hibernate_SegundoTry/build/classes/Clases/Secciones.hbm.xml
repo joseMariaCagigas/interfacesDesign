@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-feb-2016 9:20:28 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Clases.Secciones" table="secciones" catalog="supermercado_r" optimistic-lock="version">
+        <id name="PSeccion" type="int">
+            <column name="P_SECCION" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="NOMBRE" length="20" />
+        </property>
+        <set name="productoses" table="productos" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="A_SECCION" />
+            </key>
+            <one-to-many class="Clases.Productos" />
+        </set>
+    </class>
+</hibernate-mapping>

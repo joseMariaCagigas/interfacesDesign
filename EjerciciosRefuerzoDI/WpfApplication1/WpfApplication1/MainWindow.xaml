@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="430.674" Width="762.057">
+    <DockPanel>
+        <Border BorderThickness="1">
+            <StackPanel Background="LightGray" Margin="10,10" >
+            
+                <WrapPanel Margin="40,10">
+                    <Image Source="Fotos/Ahri.jpg" Margin="10" Stretch="None" Name="Ahri" MouseEnter="image_MouseEnter"
+                           />
+                    <Image Source="Fotos/Caitlyn.jpg" Margin="10" Stretch="None" Name="Caitlyn" MouseEnter="image_MouseEnter" />
+                    <Image Source="Fotos/Janna.jpg" Margin="10" Stretch="None" Name="Janna" MouseEnter="image_MouseEnter"/>
+                </WrapPanel>
+                <WrapPanel Margin="40,0">
+                    <Image Source="Fotos/Nunu.jpg" Margin="10" Stretch="None" Name="Nunu" MouseEnter="image_MouseEnter"/>
+                    <Image Source="Fotos/Rumble.jpg" Margin="10" Stretch="None" Name="Rumble" MouseEnter="image_MouseEnter"/>
+                    <Image Source="Fotos/Shaco.jpg" Margin="10" Stretch="None" Name="Shaco" MouseEnter="image_MouseEnter"/>
+                </WrapPanel>
+            
+            </StackPanel>
+        </Border>
+
+        <Border Background="LightGray" BorderThickness="1" Margin="10,5">
+            <StackPanel Margin="40,100">
+                <Image Source="{Binding Source}" HorizontalAlignment="Center" Stretch="None"/>
+
+                <StackPanel Margin="25">
+                    <TextBlock Text="{Binding Name}" TextWrapping="Wrap" HorizontalAlignment="Center" />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+
+    </DockPanel>
+
+
+</Window>

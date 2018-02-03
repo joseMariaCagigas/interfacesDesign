@@ -1,0 +1,11 @@
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\bin\Debug\WpfApplication2.exe
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\bin\Debug\WpfApplication2.pdb
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\MainWindow.baml
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\MainWindow.g.cs
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\App.g.cs
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\WpfApplication2_MarkupCompile.cache
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\WpfApplication2.g.resources
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\WpfApplication2.Properties.Resources.resources
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\Ejercicio3b.csproj.GenerateResource.Cache
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\WpfApplication2.exe
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication6\obj\x86\Debug\WpfApplication2.pdb

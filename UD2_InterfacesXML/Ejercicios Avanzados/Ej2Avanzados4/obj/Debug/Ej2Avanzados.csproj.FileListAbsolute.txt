@@ -1,0 +1,26 @@
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\bin\Debug\Ej2Avanzados.exe.config
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\bin\Debug\Ej2Avanzados.exe
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\bin\Debug\Ej2Avanzados.pdb
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados.csprojResolveAssemblyReference.cache
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\MainWindow.baml
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\MainWindow.g.cs
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\App.g.cs
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados_MarkupCompile.cache
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados.g.resources
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados.Properties.Resources.resources
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados.csproj.GenerateResource.Cache
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados.exe
+D:\usuario\Desktop\CURSO\DiseñoInterfaces\UD2_InterfacesXML\Ej2Avanzados\Ej2Avanzados\obj\Debug\Ej2Avanzados.pdb
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\bin\Debug\Ej2Avanzados.exe.config
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados.exe
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados.pdb
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\bin\Debug\Ej2Avanzados.exe
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\bin\Debug\Ej2Avanzados.pdb
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados.csprojResolveAssemblyReference.cache
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\MainWindow.baml
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\MainWindow.g.cs
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\App.g.cs
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados_MarkupCompile.cache
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados.g.resources
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados.Properties.Resources.resources
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\Ej2Avanzados\Ej2Avanzados4\obj\Debug\Ej2Avanzados.csproj.GenerateResource.Cache

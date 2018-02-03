@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="instituto9_subreport1" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="446c7832-edbc-4513-ad4a-2e3472d1e69b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="ALUMNO" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+     mod_alum.`p_mod_alum` AS mod_alum_p_mod_alum,
+     mod_alum.`a_alumno` AS mod_alum_a_alumno,
+     mod_alum.`a_modulo` AS mod_alum_a_modulo,
+     modulo.`p_modulo` AS modulo_p_modulo,
+     modulo.`nombre` AS modulo_nombre,
+     modulo.`n_horas` AS modulo_n_horas,
+     modulo.`a_profesor` AS modulo_a_profesor,
+     modulo.`a_grupo` AS modulo_a_grupo,
+     alumno.`p_alumno` AS alumno_p_alumno,
+     alumno.`nombre` AS alumno_nombre,
+     alumno.`apellidos` AS alumno_apellidos,
+     alumno.`dni` AS alumno_dni,
+     alumno.`a_grupo` AS alumno_a_grupo
+FROM
+     `modulo` modulo INNER JOIN `mod_alum` mod_alum ON modulo.`p_modulo` = mod_alum.`a_modulo`
+     INNER JOIN `alumno` alumno ON mod_alum.`a_alumno` = alumno.`p_alumno`
+WHERE alumno.`p_alumno`=$P{ALUMNO}]]>
+	</queryString>
+	<field name="mod_alum_p_mod_alum" class="java.math.BigDecimal"/>
+	<field name="mod_alum_a_alumno" class="java.math.BigDecimal"/>
+	<field name="mod_alum_a_modulo" class="java.math.BigDecimal"/>
+	<field name="modulo_p_modulo" class="java.math.BigDecimal"/>
+	<field name="modulo_nombre" class="java.lang.String"/>
+	<field name="modulo_n_horas" class="java.math.BigDecimal"/>
+	<field name="modulo_a_profesor" class="java.math.BigDecimal"/>
+	<field name="modulo_a_grupo" class="java.math.BigDecimal"/>
+	<field name="alumno_p_alumno" class="java.math.BigDecimal"/>
+	<field name="alumno_nombre" class="java.lang.String"/>
+	<field name="alumno_apellidos" class="java.lang.String"/>
+	<field name="alumno_dni" class="java.lang.String"/>
+	<field name="alumno_a_grupo" class="java.math.BigDecimal"/>
+	<variable name="modulo_n_horas_1" class="java.math.BigDecimal" resetType="Column" calculation="Sum">
+		<variableExpression><![CDATA[$F{modulo_n_horas}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="47" y="38" width="125" height="20" uuid="1f95b6af-0376-40f0-9da7-9e3626ce08eb"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lista de Modulos]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="72" y="22" width="100" height="20" uuid="9d86f37f-a3cd-4c23-95cf-f4120f1fc5f4"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Modulo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="246" y="22" width="100" height="20" uuid="c0e806de-bb51-4f1d-a9a7-8686fae39abf"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Horas]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="46" splitType="Stretch">
+			<textField>
+				<reportElement x="72" y="15" width="100" height="20" uuid="02850b98-dc62-4430-808a-3f8981067744"/>
+				<textFieldExpression><![CDATA[$F{modulo_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="246" y="15" width="100" height="20" uuid="567b476a-9ab2-429f-b4c8-84a0d58fc2e2"/>
+				<textFieldExpression><![CDATA[$F{modulo_n_horas}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50">
+			<textField>
+				<reportElement x="246" y="10" width="200" height="20" uuid="d4744da2-266d-441d-ba94-fbdb64fda885"/>
+				<textFieldExpression><![CDATA["El numero total de horas es "+$V{modulo_n_horas_1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>

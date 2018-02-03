@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="instituto6_subreport1" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isIgnorePagination="true" uuid="c315e714-9649-42a2-8bcd-fd85885ca1c6">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="AULA" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+     alumno.`p_alumno` AS alumno_p_alumno,
+     alumno.`nombre` AS alumno_nombre,
+     alumno.`apellidos` AS alumno_apellidos,
+     alumno.`dni` AS alumno_dni,
+     alumno.`a_grupo` AS alumno_a_grupo,
+     aula.`p_aula` AS aula_p_aula,
+     aula.`capacidad` AS aula_capacidad,
+     aula.`situacion` AS aula_situacion,
+     grupo.`p_grupo` AS grupo_p_grupo,
+     grupo.`nombre` AS grupo_nombre,
+     grupo.`a_aula` AS grupo_a_aula
+FROM
+     `aula` aula INNER JOIN `grupo` grupo ON aula.`p_aula` = grupo.`a_aula`
+     INNER JOIN `alumno` alumno ON grupo.`p_grupo` = alumno.`a_grupo`
+WHERE
+     aula.`p_aula` = $P{AULA}]]>
+	</queryString>
+	<field name="alumno_p_alumno" class="java.math.BigDecimal"/>
+	<field name="alumno_nombre" class="java.lang.String"/>
+	<field name="alumno_apellidos" class="java.lang.String"/>
+	<field name="alumno_dni" class="java.lang.String"/>
+	<field name="alumno_a_grupo" class="java.math.BigDecimal"/>
+	<field name="aula_p_aula" class="java.math.BigDecimal"/>
+	<field name="aula_capacidad" class="java.math.BigDecimal"/>
+	<field name="aula_situacion" class="java.lang.String"/>
+	<field name="grupo_p_grupo" class="java.math.BigDecimal"/>
+	<field name="grupo_nombre" class="java.lang.String"/>
+	<field name="grupo_a_aula" class="java.math.BigDecimal"/>
+	<variable name="alumno_nombre_1" class="java.lang.Integer" resetType="Page" calculation="Count">
+		<variableExpression><![CDATA[$F{alumno_nombre}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="28" splitType="Stretch">
+			<staticText>
+				<reportElement x="232" y="0" width="100" height="20" uuid="7227cf3e-0d26-4f61-8097-16b9b7009ff5"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Alumnos]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="28" splitType="Stretch">
+			<staticText>
+				<reportElement x="89" y="2" width="100" height="20" uuid="9661732f-812c-45c1-bf6a-538ff4332069"/>
+				<text><![CDATA[Nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="306" y="2" width="100" height="20" uuid="a277128f-5ead-4077-b1cc-e4e4a028bfdd"/>
+				<text><![CDATA[Apellidos]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="56" splitType="Stretch">
+			<textField>
+				<reportElement x="89" y="12" width="100" height="20" uuid="a8afcf16-382d-49f3-a826-7272c59b448b"/>
+				<textFieldExpression><![CDATA[$F{alumno_nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="306" y="12" width="116" height="20" uuid="e6f875d6-9210-4656-aa60-e05766e4c12f"/>
+				<textFieldExpression><![CDATA[$F{alumno_apellidos}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="50">
+			<textField>
+				<reportElement x="306" y="18" width="169" height="20" uuid="581db88f-cb4b-499b-a811-f7100de31060"/>
+				<textFieldExpression><![CDATA["El total de alumnos es "+ $V{alumno_nombre_1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

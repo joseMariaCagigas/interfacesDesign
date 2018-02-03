@@ -1,0 +1,9 @@
+/* AUTOMATICALLY GENERATED ON Fri Feb 19 17:11:45 CET 2016*/
+/* DO NOT EDIT */
+
+grant {
+	permission java.util.PropertyPermission "user.name", "read";
+	permission java.util.PropertyPermission "user.home", "read";
+	permission java.util.PropertyPermission "user.dir", "read";
+};
+

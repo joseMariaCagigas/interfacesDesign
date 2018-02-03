@@ -1,0 +1,15 @@
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\bin\Debug\WpfApplication10.exe
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\bin\Debug\WpfApplication10.pdb
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\MainWindow.baml
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\MainWindow.g.cs
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\App.g.cs
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10_MarkupCompile.cache
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10.g.resources
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10.Properties.Resources.resources
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\Ejercicio9.csproj.GenerateResource.Cache
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10.exe
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10.pdb
+C:\Users\MaQuiNa1995\Desktop\Entregar\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10.exe
+C:\Users\MaQuiNa1995\Desktop\Entregar\WpfApplication1\WpfApplication10\obj\x86\Debug\WpfApplication10.pdb
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\2º Desarrollo De Aplicaciones\Diseño De Interfaces\UD2_InterfacesXML\Christian Muñoz Ason Ejercicios Interfaces\Ejercicios basicos\WpfApplication10\obj\x86\Debug\WpfApplication10.exe
+C:\Users\MaQuiNa1995\Desktop\Mis Documentos\2º Desarrollo De Aplicaciones\Diseño De Interfaces\UD2_InterfacesXML\Christian Muñoz Ason Ejercicios Interfaces\Ejercicios basicos\WpfApplication10\obj\x86\Debug\WpfApplication10.pdb

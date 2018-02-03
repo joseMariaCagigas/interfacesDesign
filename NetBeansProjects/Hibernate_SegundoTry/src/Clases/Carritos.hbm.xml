@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-feb-2016 9:20:28 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Clases.Carritos" table="carritos" catalog="supermercado_r" optimistic-lock="version">
+        <id name="PCarrito" type="int">
+            <column name="P_CARRITO" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="usuarios" class="Clases.Usuarios" fetch="select">
+            <column name="A_USUARIO" />
+        </many-to-one>
+        <property name="fecha" type="date">
+            <column name="FECHA" length="10" />
+        </property>
+        <set name="carrPros" table="carr_pro" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="A_CARRITO" />
+            </key>
+            <one-to-many class="Clases.CarrPro" />
+        </set>
+    </class>
+</hibernate-mapping>

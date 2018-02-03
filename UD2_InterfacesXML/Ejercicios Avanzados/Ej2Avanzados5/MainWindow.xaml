@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="100" Margin="10,0,0,0" VerticalAlignment="Top" Width="100"/>
+        <MenuItem Header="_Modo">
+            <MenuItem Name="FaC" Click="FaC_Click" Header="_Farenheit a Celsius" >
+            </MenuItem>
+            <MenuItem Name="CaF" Click="CaF_Click" Header="_Celsius a Farenheit" >
+            </MenuItem>
+        </MenuItem>
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\bin\Debug\WpfApplication1.exe
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\bin\Debug\WpfApplication1.pdb
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\MainWindow.baml
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\MainWindow.g.cs
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\App.g.cs
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\WpfApplication1.g.resources
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\Ejercicio1Bindins.csproj.GenerateResource.Cache
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\WpfApplication1.exe
+C:\Users\MaQuiNa1995\Documents\Visual Studio 2010\Projects\WpfApplication1\WpfApplication1Bindins\obj\x86\Debug\WpfApplication1.pdb

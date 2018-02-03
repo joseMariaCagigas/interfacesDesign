@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="148" Width="357">
+    <StackPanel Orientation="Horizontal">
+        <Button Content="Hombre" Name="button1" Margin="70,25,25,25" VerticalAlignment="Center" HorizontalAlignment="Center" Click="button_Click" />
+        <Button Content="Mujer" Name="button2"  Margin="80,25,25,25" VerticalAlignment="Center" HorizontalAlignment="Center" Click="button_Click" />
+        </StackPanel>
+</Window>

@@ -1,0 +1,286 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+
+ Directorio de C:\Users\MaQuiNa1995\Documents\NetBeansProjects\Ejercicios_Teoria_Psps
+
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+
+ Directorio de C:\Users\MaQuiNa1995\Documents\NetBeansProjects\Ejercicios_Teoria_Psps
+
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+06/06/2015  22:39    <DIR>          AeriaGames
+07/11/2007  08:00            17.734 eula.1028.txt
+07/11/2007  08:00            17.734 eula.1031.txt
+07/11/2007  08:00            10.134 eula.1033.txt
+07/11/2007  08:00            17.734 eula.1036.txt
+07/11/2007  08:00            17.734 eula.1040.txt
+07/11/2007  08:00               118 eula.1041.txt
+07/11/2007  08:00            17.734 eula.1042.txt
+07/11/2007  08:00            17.734 eula.2052.txt
+29/12/2007  15:41            12.936 eula.3082.txt
+07/11/2007  08:00             1.110 globdata.ini
+22/09/2015  12:01                91 HaxLogs.txt
+07/11/2007  08:44           855.040 install.exe
+07/11/2007  08:00               843 install.ini
+07/11/2007  08:44            75.280 install.res.1028.dll
+07/11/2007  08:44            95.248 install.res.1031.dll
+07/11/2007  08:44            90.128 install.res.1033.dll
+07/11/2007  08:44            96.272 install.res.1036.dll
+07/11/2007  08:44            94.224 install.res.1040.dll
+07/11/2007  08:44            80.400 install.res.1041.dll
+07/11/2007  08:44            78.864 install.res.1042.dll
+07/11/2007  08:44            74.768 install.res.2052.dll
+07/11/2007  08:44            95.248 install.res.3082.dll
+11/09/2012  06:29    <DIR>          Intel
+10/07/2015  13:04    <DIR>          PerfLogs
+22/09/2015  11:59    <DIR>          Program Files
+29/09/2015  08:26    <DIR>          Program Files (x86)
+08/08/2015  16:59    <DIR>          Recovery
+11/09/2012  06:32             2.214 RHDSetup.log
+27/07/2015  20:51    <DIR>          Riot Games
+11/09/2012  06:32               206 setup.log
+11/09/2012  21:56    <DIR>          sources
+28/05/2015  20:58    <DIR>          temp
+08/08/2015  17:03    <DIR>          Users
+07/11/2007  08:00             5.686 vcredist.bmp
+29/12/2007  15:50         1.442.522 VC_RED.cab
+29/12/2007  15:54           233.472 VC_RED.MSI
+18/09/2015  15:28    <DIR>          Windows
+              27 archivos      3.451.208 bytes
+              11 dirs  154.524.934.144 bytes libres
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+06/06/2015  22:39    <DIR>          AeriaGames
+07/11/2007  08:00            17.734 eula.1028.txt
+07/11/2007  08:00            17.734 eula.1031.txt
+07/11/2007  08:00            10.134 eula.1033.txt
+07/11/2007  08:00            17.734 eula.1036.txt
+07/11/2007  08:00            17.734 eula.1040.txt
+07/11/2007  08:00               118 eula.1041.txt
+07/11/2007  08:00            17.734 eula.1042.txt
+07/11/2007  08:00            17.734 eula.2052.txt
+29/12/2007  15:41            12.936 eula.3082.txt
+07/11/2007  08:00             1.110 globdata.ini
+22/09/2015  12:01                91 HaxLogs.txt
+07/11/2007  08:44           855.040 install.exe
+07/11/2007  08:00               843 install.ini
+07/11/2007  08:44            75.280 install.res.1028.dll
+07/11/2007  08:44            95.248 install.res.1031.dll
+07/11/2007  08:44            90.128 install.res.1033.dll
+07/11/2007  08:44            96.272 install.res.1036.dll
+07/11/2007  08:44            94.224 install.res.1040.dll
+07/11/2007  08:44            80.400 install.res.1041.dll
+07/11/2007  08:44            78.864 install.res.1042.dll
+07/11/2007  08:44            74.768 install.res.2052.dll
+07/11/2007  08:44            95.248 install.res.3082.dll
+11/09/2012  06:29    <DIR>          Intel
+10/07/2015  13:04    <DIR>          PerfLogs
+22/09/2015  11:59    <DIR>          Program Files
+29/09/2015  08:26    <DIR>          Program Files (x86)
+08/08/2015  16:59    <DIR>          Recovery
+11/09/2012  06:32             2.214 RHDSetup.log
+27/07/2015  20:51    <DIR>          Riot Games
+11/09/2012  06:32               206 setup.log
+11/09/2012  21:56    <DIR>          sources
+28/05/2015  20:58    <DIR>          temp
+08/08/2015  17:03    <DIR>          Users
+07/11/2007  08:00             5.686 vcredist.bmp
+29/12/2007  15:50         1.442.522 VC_RED.cab
+29/12/2007  15:54           233.472 VC_RED.MSI
+18/09/2015  15:28    <DIR>          Windows
+              27 archivos      3.451.208 bytes
+              11 dirs  154.524.925.952 bytes libres
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+06/06/2015  22:39    <DIR>          AeriaGames
+07/11/2007  08:00            17.734 eula.1028.txt
+07/11/2007  08:00            17.734 eula.1031.txt
+07/11/2007  08:00            10.134 eula.1033.txt
+07/11/2007  08:00            17.734 eula.1036.txt
+07/11/2007  08:00            17.734 eula.1040.txt
+07/11/2007  08:00               118 eula.1041.txt
+07/11/2007  08:00            17.734 eula.1042.txt
+07/11/2007  08:00            17.734 eula.2052.txt
+29/12/2007  15:41            12.936 eula.3082.txt
+07/11/2007  08:00             1.110 globdata.ini
+22/09/2015  12:01                91 HaxLogs.txt
+07/11/2007  08:44           855.040 install.exe
+07/11/2007  08:00               843 install.ini
+07/11/2007  08:44            75.280 install.res.1028.dll
+07/11/2007  08:44            95.248 install.res.1031.dll
+07/11/2007  08:44            90.128 install.res.1033.dll
+07/11/2007  08:44            96.272 install.res.1036.dll
+07/11/2007  08:44            94.224 install.res.1040.dll
+07/11/2007  08:44            80.400 install.res.1041.dll
+07/11/2007  08:44            78.864 install.res.1042.dll
+07/11/2007  08:44            74.768 install.res.2052.dll
+07/11/2007  08:44            95.248 install.res.3082.dll
+11/09/2012  06:29    <DIR>          Intel
+10/07/2015  13:04    <DIR>          PerfLogs
+22/09/2015  11:59    <DIR>          Program Files
+29/09/2015  08:26    <DIR>          Program Files (x86)
+08/08/2015  16:59    <DIR>          Recovery
+11/09/2012  06:32             2.214 RHDSetup.log
+27/07/2015  20:51    <DIR>          Riot Games
+11/09/2012  06:32               206 setup.log
+11/09/2012  21:56    <DIR>          sources
+28/05/2015  20:58    <DIR>          temp
+08/08/2015  17:03    <DIR>          Users
+07/11/2007  08:00             5.686 vcredist.bmp
+29/12/2007  15:50         1.442.522 VC_RED.cab
+29/12/2007  15:54           233.472 VC_RED.MSI
+18/09/2015  15:28    <DIR>          Windows
+              27 archivos      3.451.208 bytes
+              11 dirs  154.524.917.760 bytes libres
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+06/06/2015  22:39    <DIR>          AeriaGames
+07/11/2007  08:00            17.734 eula.1028.txt
+07/11/2007  08:00            17.734 eula.1031.txt
+07/11/2007  08:00            10.134 eula.1033.txt
+07/11/2007  08:00            17.734 eula.1036.txt
+07/11/2007  08:00            17.734 eula.1040.txt
+07/11/2007  08:00               118 eula.1041.txt
+07/11/2007  08:00            17.734 eula.1042.txt
+07/11/2007  08:00            17.734 eula.2052.txt
+29/12/2007  15:41            12.936 eula.3082.txt
+07/11/2007  08:00             1.110 globdata.ini
+22/09/2015  12:01                91 HaxLogs.txt
+07/11/2007  08:44           855.040 install.exe
+07/11/2007  08:00               843 install.ini
+07/11/2007  08:44            75.280 install.res.1028.dll
+07/11/2007  08:44            95.248 install.res.1031.dll
+07/11/2007  08:44            90.128 install.res.1033.dll
+07/11/2007  08:44            96.272 install.res.1036.dll
+07/11/2007  08:44            94.224 install.res.1040.dll
+07/11/2007  08:44            80.400 install.res.1041.dll
+07/11/2007  08:44            78.864 install.res.1042.dll
+07/11/2007  08:44            74.768 install.res.2052.dll
+07/11/2007  08:44            95.248 install.res.3082.dll
+11/09/2012  06:29    <DIR>          Intel
+10/07/2015  13:04    <DIR>          PerfLogs
+22/09/2015  11:59    <DIR>          Program Files
+29/09/2015  08:26    <DIR>          Program Files (x86)
+08/08/2015  16:59    <DIR>          Recovery
+11/09/2012  06:32             2.214 RHDSetup.log
+27/07/2015  20:51    <DIR>          Riot Games
+11/09/2012  06:32               206 setup.log
+11/09/2012  21:56    <DIR>          sources
+28/05/2015  20:58    <DIR>          temp
+08/08/2015  17:03    <DIR>          Users
+07/11/2007  08:00             5.686 vcredist.bmp
+29/12/2007  15:50         1.442.522 VC_RED.cab
+29/12/2007  15:54           233.472 VC_RED.MSI
+18/09/2015  15:28    <DIR>          Windows
+              27 archivos      3.451.208 bytes
+              11 dirs  154.524.913.664 bytes libres
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+06/06/2015  22:39    <DIR>          AeriaGames
+07/11/2007  08:00            17.734 eula.1028.txt
+07/11/2007  08:00            17.734 eula.1031.txt
+07/11/2007  08:00            10.134 eula.1033.txt
+07/11/2007  08:00            17.734 eula.1036.txt
+07/11/2007  08:00            17.734 eula.1040.txt
+07/11/2007  08:00               118 eula.1041.txt
+07/11/2007  08:00            17.734 eula.1042.txt
+07/11/2007  08:00            17.734 eula.2052.txt
+29/12/2007  15:41            12.936 eula.3082.txt
+07/11/2007  08:00             1.110 globdata.ini
+22/09/2015  12:01                91 HaxLogs.txt
+07/11/2007  08:44           855.040 install.exe
+07/11/2007  08:00               843 install.ini
+07/11/2007  08:44            75.280 install.res.1028.dll
+07/11/2007  08:44            95.248 install.res.1031.dll
+07/11/2007  08:44            90.128 install.res.1033.dll
+07/11/2007  08:44            96.272 install.res.1036.dll
+07/11/2007  08:44            94.224 install.res.1040.dll
+07/11/2007  08:44            80.400 install.res.1041.dll
+07/11/2007  08:44            78.864 install.res.1042.dll
+07/11/2007  08:44            74.768 install.res.2052.dll
+07/11/2007  08:44            95.248 install.res.3082.dll
+11/09/2012  06:29    <DIR>          Intel
+10/07/2015  13:04    <DIR>          PerfLogs
+22/09/2015  11:59    <DIR>          Program Files
+29/09/2015  08:26    <DIR>          Program Files (x86)
+08/08/2015  16:59    <DIR>          Recovery
+11/09/2012  06:32             2.214 RHDSetup.log
+27/07/2015  20:51    <DIR>          Riot Games
+11/09/2012  06:32               206 setup.log
+11/09/2012  21:56    <DIR>          sources
+28/05/2015  20:58    <DIR>          temp
+08/08/2015  17:03    <DIR>          Users
+07/11/2007  08:00             5.686 vcredist.bmp
+29/12/2007  15:50         1.442.522 VC_RED.cab
+29/12/2007  15:54           233.472 VC_RED.MSI
+18/09/2015  15:28    <DIR>          Windows
+              27 archivos      3.451.208 bytes
+              11 dirs  154.524.758.016 bytes libres
+ El volumen de la unidad C no tiene etiqueta.
+ El n�mero de serie del volumen es: 7EB8-B2E8
+
+ Directorio de C:\
+
+06/06/2015  22:39    <DIR>          AeriaGames
+07/11/2007  08:00            17.734 eula.1028.txt
+07/11/2007  08:00            17.734 eula.1031.txt
+07/11/2007  08:00            10.134 eula.1033.txt
+07/11/2007  08:00            17.734 eula.1036.txt
+07/11/2007  08:00            17.734 eula.1040.txt
+07/11/2007  08:00               118 eula.1041.txt
+07/11/2007  08:00            17.734 eula.1042.txt
+07/11/2007  08:00            17.734 eula.2052.txt
+29/12/2007  15:41            12.936 eula.3082.txt
+07/11/2007  08:00             1.110 globdata.ini
+22/09/2015  12:01                91 HaxLogs.txt
+07/11/2007  08:44           855.040 install.exe
+07/11/2007  08:00               843 install.ini
+07/11/2007  08:44            75.280 install.res.1028.dll
+07/11/2007  08:44            95.248 install.res.1031.dll
+07/11/2007  08:44            90.128 install.res.1033.dll
+07/11/2007  08:44            96.272 install.res.1036.dll
+07/11/2007  08:44            94.224 install.res.1040.dll
+07/11/2007  08:44            80.400 install.res.1041.dll
+07/11/2007  08:44            78.864 install.res.1042.dll
+07/11/2007  08:44            74.768 install.res.2052.dll
+07/11/2007  08:44            95.248 install.res.3082.dll
+11/09/2012  06:29    <DIR>          Intel
+10/07/2015  13:04    <DIR>          PerfLogs
+22/09/2015  11:59    <DIR>          Program Files
+29/09/2015  08:26    <DIR>          Program Files (x86)
+08/08/2015  16:59    <DIR>          Recovery
+11/09/2012  06:32             2.214 RHDSetup.log
+27/07/2015  20:51    <DIR>          Riot Games
+11/09/2012  06:32               206 setup.log
+11/09/2012  21:56    <DIR>          sources
+28/05/2015  20:58    <DIR>          temp
+08/08/2015  17:03    <DIR>          Users
+07/11/2007  08:00             5.686 vcredist.bmp
+29/12/2007  15:50         1.442.522 VC_RED.cab
+29/12/2007  15:54           233.472 VC_RED.MSI
+18/09/2015  15:28    <DIR>          Windows
+              27 archivos      3.451.208 bytes
+              11 dirs  154.524.753.920 bytes libres

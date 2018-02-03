@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="instituto5" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="849dea15-81a5-441a-a2cb-684ecaa4e777">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     aula.`p_aula` AS aula_p_aula,
+     aula.`situacion` AS aula_situacion,
+     aula.`capacidad` AS aula_capacidad
+
+FROM
+     `aula` aula]]>
+	</queryString>
+	<field name="aula_p_aula" class="java.math.BigDecimal"/>
+	<field name="aula_situacion" class="java.lang.String"/>
+	<field name="aula_capacidad" class="java.math.BigDecimal"/>
+	<variable name="MEDIA" class="java.lang.String" calculation="Average">
+		<variableExpression><![CDATA[$F{aula_capacidad}]]></variableExpression>
+	</variable>
+	<variable name="aula_capacidad_1" class="java.math.BigDecimal" resetType="Page" calculation="Average">
+		<variableExpression><![CDATA[$F{aula_capacidad}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="39" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="39" uuid="00e138f2-7b18-4a8d-9fdb-b119d9e302d8"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[	Listado de aulas del centro]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<staticText>
+				<reportElement x="70" y="2" width="100" height="20" uuid="adee02e2-5709-4747-bb88-a84987283bcc"/>
+				<text><![CDATA[Código]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="2" width="100" height="20" uuid="2f9c1981-b423-4be2-861b-40ef615f662a"/>
+				<text><![CDATA[Situación]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="417" y="2" width="100" height="20" uuid="4257a635-d75a-4568-9010-a7d68a0f80e9"/>
+				<text><![CDATA[Capacidad]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="41" splitType="Stretch">
+			<textField>
+				<reportElement x="70" y="12" width="100" height="20" uuid="7a771caa-5e7c-4c63-a0c0-f93321bc51ff"/>
+				<textFieldExpression><![CDATA[$F{aula_p_aula}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="15" width="100" height="20" uuid="dd8b1e2c-546b-4568-a8a6-41f2b34b3448"/>
+				<textFieldExpression><![CDATA[$F{aula_situacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="417" y="15" width="100" height="20" uuid="51073f4f-f311-4293-9971-595d219fe7e4"/>
+				<textFieldExpression><![CDATA[$F{aula_capacidad}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="36" splitType="Stretch">
+			<textField>
+				<reportElement x="364" y="16" width="178" height="20" uuid="32b738de-5472-4e1f-a3e3-c45ccccbbfdf"/>
+				<textFieldExpression><![CDATA["Media de los alumnos "+ $V{aula_capacidad_1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
